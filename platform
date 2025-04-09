@@ -1,0 +1,8 @@
+#!/usr/bin/env nu
+
+source scripts/kind.nu
+source scripts/image.nu
+
+def main [] {}
+
+
