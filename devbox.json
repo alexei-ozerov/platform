@@ -1,6 +1,14 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
-  "packages": ["nushell@latest"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
+  "packages": [
+    "nushell@latest",
+    "podman@latest",
+    "docker@latest",
+    "kind@latest",
+    "kubectl@latest",
+    "helm@latest",
+    "terraform@latest"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
