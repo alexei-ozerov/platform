@@ -1,6 +1,6 @@
-# Platform CLI Utility
+ssssss# Platform CLI Utility
 ## Prerequisites
-You must install (https://www.jetify.com/docs/devbox/quickstart/)[Devbox] to your environment in order to pull down the dependencies to run this project.
+You must install [Devbox](https://www.jetify.com/docs/devbox/quickstart/) to your environment in order to pull down the dependencies to run this project.
 
 After installation, run `devbox shell` to access those dependencies.
 
