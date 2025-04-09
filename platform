@@ -1,8 +1,16 @@
 #!/usr/bin/env nu
 
-source scripts/kind.nu
+#
+# Import script components.
+#
+
+source scripts/container.nu
 source scripts/image.nu
+source scripts/kind.nu
+
+#
+# Main
+#
 
 def main [] {}
-
 
