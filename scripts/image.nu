@@ -8,11 +8,8 @@
 # Main
 #
 
-# Container Image Management.
-def "main image" [] {}
-
-# Build & push image to registry.
-def "main image build" [
+# Create image: build & push to registry.
+def "main create image" [
   --image (-i): string # The name of the image you want to create.
   --tag (-t): string  # The name of the tag you wish to apply.
   --registry (-r): string # The name of the registry you wish to push to.

@@ -12,5 +12,22 @@ source scripts/kind.nu
 # Main
 #
 
-def main [] {}
+# Platform management tool.
+def main [] {
+  ./platform --help
+}
+
+# Create a resource. 
+def "main create" [] {}
+
+# Get a resource. 
+def "main get" [] {}
+
+# Delete a resource. 
+def "main delete" [] {}
+
+
+# Update a resource. 
+def "main update" [] {}
+
 

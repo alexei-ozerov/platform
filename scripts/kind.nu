@@ -20,23 +20,21 @@ def cluster_delete [name: string] {
 # Main
 #
 
-# KinD Cluster Management. 
-def "main kind" [] {}
 
 # Create a KinD cluster named <name>.
-def "main kind create" [
+def "main create kind" [
   name: string # The name of the cluster you want to create.
 ] {
   cluster_create ($name)
 }
 
-# List KinD clusters.
-def "main kind list" [] {
+# Get list of KinD clusters.
+def "main get kind" [] {
   cluster_list
 }
 
 # Delete a KinD cluster named <name>.
-def "main kind delete" [
+def "main delete kind" [
   --name = "" : string # The name of the cluster you want to delete. If no name is provided, you will be presented with a menu of available clusters to delete.
 ] {
   if ($name) == "" {
